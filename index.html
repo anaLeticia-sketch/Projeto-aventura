@@ -3,22 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dreamemulator
-    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+
+    <title>Dreamemulator</title>
 </head>
 <body>
 
-<main>
-<div>
-<p>Olá... parece que você está aqui de novo. Estranho, não? Algo não está certo, você sente isso. Está preso, em algum lugar entre o sonho e a realidade. Seu objetivo é simples: ACORDE. Mas cuidado, esse lugar é traiçoeiro. Cada erro te traz de volta ao início, e a cada vez que você retorna, um pedaço de você se perde aqui.. Lembre-se, só você pode encontrar a saída. Acorde, antes que seja tarde demais..
-</p>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="prime.jpg " alt="">
+            <p>Olá... parece que você está aqui de novo. Estranho, não? Algo não está certo, você sente isso. Está preso, em algum lugar entre o sonho e a realidade. Seu objetivo é simples: acorde. Mas cuidado, esse lugar é traiçoeiro. Cada erro te traz de volta ao início, e a cada vez que você retorna, um pedaço de você se perde aqui.. Lembre-se, só você pode encontrar a saída. Acorde, antes que seja tarde demais..</p>
+            <button class="btn-proximo" data-proximo="1">Começar</button>
+            
+        </div>
+    <div>
+        <div class="passo" id="passo-1">
+         <p>O ambiente ao seu redor é opressor, metálico e frio. Canos de ferro enferrujados serpenteiam pelas paredes de pedra, gotejando uma água que parece corroer o próprio ar, deixando-o úmido e pesado. O som distante de algo se movendo ecoa pelos corredores, mas sua origem é desconhecida. O chão sob seus pés ressoa com cada passo, como se estivesse caminhando sobre as entranhas de uma máquina antiga e esquecida.</p>
+         <p> o que voce ira fazer ?</p>
+         <button class="btn-proximo" data-proximo="2">Explorar os arredores </button>
+         <button class="btn-proximo" data-proximo="3"> Proseguir pelo Corredor</button>
 
-</div>
+     </div>
 
-</main>
+     <div>
+        <div class="passo" id="passo-2">
+            <img src="lugar cinza.jpg" alt="">
+         <p>Você se depara com um espaço amplo, mas desprovido de vida. Tudo ao redor é cinzento, como se a cor tivesse sido drenada desse lugar. À sua frente, duas entradas se abrem para a escuridão total, como bocas famintas esperando para devorar qualquer um que se aproxime. O silêncio aqui é ensurdecedor, interrompido apenas pelo som do seu próprio coração. O que estará além dessas sombras?. </p>
+         <p> o que voce ira fazer ?</p>
+         <button class="btn-proximo" data-proximo="4">ir para a porta da direita</button>
+         <button class="btn-proximo" data-proximo="5"> ir para a porta da esquerda</button>
+
+     </div>
+
+     <div>
+        <div class="passo" id="passo-3">
+            <img src="corredor.jpg" alt="">
+         <p>O corredor à sua frente é gélido, com paredes feitas de pedra áspera e canos enferrujados que se estendem ao longo do caminho. A iluminação amarelada é escassa, lançando sombras inquietas nas superfícies, enquanto o ar pesado carrega o cheiro metálico de ferro misturado com uma umidade penetrante. Cada passo ecoa, aumentando a sensação de isolamento e perigo iminente
+            No final do corredor, você encontra uma escada horizontal de alças de metal, enferrujadas e frágeis ao toque. 
+            </p>
+         <p> o que voce ira fazer ?</p>
+         <button class="btn-proximo" data-proximo="4">Subir</button>
+         <button class="btn-proximo" data-proximo="5"> Descer</button>
+
+     </div>
+
+     <div class="passo" id="passo-4">
+        <img src="escadaria estreita.jpg" alt="">
+        <p>Voce se depara com escadarias à sua frente , estreitas ,quase claustrofóbicas, e parece se estender infinitamente para cima. Cada degrau range sob seu peso, como se estivesse prestes a ceder. As paredes, próximas demais, parecem se fechar ao seu redor, tornando o ar ainda mais rarefeito. O caminho é árduo, e cada passo mais difícil que o anterior, como se o próprio ambiente estivesse tentando impedir sua ascensão 
+            </p>
+        <button class="btn-proximo" data-proximo="6">  subir escadas </button>
+        
+    </div>
+
+     <div class="passo" id="passo-4">
+        <img src="escadaria estreita.jpg" alt="">
+        <p>Voce se depara com escadarias à sua frente , estreitas ,quase claustrofóbicas, e parece se estender infinitamente para cima. Cada degrau range sob seu peso, como se estivesse prestes a ceder. As paredes, próximas demais, parecem se fechar ao seu redor, tornando o ar ainda mais rarefeito. O caminho é árduo, e cada passo mais difícil que o anterior, como se o próprio ambiente estivesse tentando impedir sua ascensão 
+            </p>
+        <button class="btn-proximo" data-proximo="6">  subir escadas </button>
+        
+    </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você decide investigar mais a fundo e segue pelo caminho à esquerda. O ambiente logo se abre para um espaço vasto e sombrio. A pouca luminosidade que há mal ilumina o cenário, revelando apenas silhuetas de árvores retorcidas e negras, como se o próprio ambiente estivesse morto há muito tempo. A atmosfera é densa, carregada de um silêncio pesado, quase palpável
+                </p>
+            <button class="btn-proximo" data-proximo="7">  prosseguir </button>
+            
+        </div>
+        <div class="passo" id="passo-">
+            <p>Voce se depara com escadarias à sua frente , estreitas ,quase claustrofóbicas, e parece se estender infinitamente para cima. Cada degrau range sob seu peso, como se estivesse prestes a ceder. As paredes, próximas demais, parecem se fechar ao seu redor, tornando o ar ainda mais rarefeito. O caminho é árduo, e cada passo mais difícil que o anterior, como se o próprio ambiente estivesse tentando impedir sua ascensão 
+                </p>
+            <button class="btn-proximo" data-proximo="8"> Subir </button>
+            <button class="btn-proximo" data-proximo="9"> Descer </button>
+        </div>
 
 
-
+        </main>
+        <script src="script.js"></script>
     
 </body>
 </html>
